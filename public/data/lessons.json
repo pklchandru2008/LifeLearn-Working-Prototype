@@ -1,0 +1,20 @@
+[
+  {
+    "id": "daily-01",
+    "title": "Build a simple daily routine",
+    "category": "Home & Daily Skills",
+    "durationMinutes": 5
+  },
+  {
+    "id": "money-01",
+    "title": "Make a basic monthly budget",
+    "category": "Money & Financial Basics",
+    "durationMinutes": 6
+  },
+  {
+    "id": "cyber-01",
+    "title": "Spot a suspicious link",
+    "category": "Digital & Cyber Safety",
+    "durationMinutes": 5
+  }
+]
