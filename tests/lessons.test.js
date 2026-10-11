@@ -23,6 +23,28 @@ test('sample lesson IDs are unique', () => {
   assert.equal(new Set(ids).size, ids.length);
 });
 
+test('sample lesson data covers the expected LifeLearn categories', () => {
+  const expectedCategories = [
+    'Home & Daily Skills',
+    'Cooking',
+    'Money & Financial Basics',
+    'Health & First Aid',
+    'Education & Study Skills',
+    'Career & Workplace Skills',
+    'Communication',
+    'Languages',
+    'Creative Skills',
+    'Safety & Emergency Skills',
+    'Digital & Cyber Safety'
+  ];
+
+  const categories = new Set(data.map(x => x.category));
+  assert.equal(categories.size, expectedCategories.length);
+  for (const category of expectedCategories) {
+    assert.ok(categories.has(category), `missing category: ${category}`);
+  }
+});
+
 test('LifeLearn categories include digital and cyber safety', () => {
   assert.ok(data.some(x => x.category === 'Digital & Cyber Safety'));
 });

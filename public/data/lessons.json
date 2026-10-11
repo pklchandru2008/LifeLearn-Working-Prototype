@@ -3,18 +3,286 @@
     "id": "daily-01",
     "title": "Build a simple daily routine",
     "category": "Home & Daily Skills",
-    "durationMinutes": 5
+    "level": "Beginner",
+    "durationMinutes": 5,
+    "duration": "5 min",
+    "icon": "☀️",
+    "description": "Create a realistic routine with time for learning, rest, and responsibilities.",
+    "steps": [
+      "Write down your fixed daily commitments.",
+      "Choose three important tasks for tomorrow.",
+      "Give each task a realistic time slot.",
+      "Review your plan at the end of the day."
+    ],
+    "quiz": {
+      "q": "What makes a daily routine more useful?",
+      "options": [
+        "Planning every minute with no breaks",
+        "Choosing realistic priorities and reviewing them",
+        "Adding as many tasks as possible"
+      ],
+      "answer": 1,
+      "explanation": "A realistic routine prioritizes important tasks and leaves room for breaks."
+    }
+  },
+  {
+    "id": "cook-01",
+    "title": "Kitchen safety basics",
+    "category": "Cooking",
+    "level": "Beginner",
+    "durationMinutes": 4,
+    "duration": "4 min",
+    "icon": "🥗",
+    "description": "Learn simple habits that help reduce common kitchen risks.",
+    "steps": [
+      "Wash hands before handling food.",
+      "Keep raw and ready-to-eat foods separate.",
+      "Turn pan handles inward and keep flammable items away from heat.",
+      "Switch off appliances after use."
+    ],
+    "quiz": {
+      "q": "What should you do with raw and ready-to-eat foods?",
+      "options": [
+        "Keep them separate",
+        "Use the same unwashed board",
+        "Leave both at room temperature all day"
+      ],
+      "answer": 0,
+      "explanation": "Separating raw and ready-to-eat foods helps prevent cross-contamination."
+    }
   },
   {
     "id": "money-01",
     "title": "Make a basic monthly budget",
     "category": "Money & Financial Basics",
-    "durationMinutes": 6
+    "level": "Beginner",
+    "durationMinutes": 6,
+    "duration": "6 min",
+    "icon": "💰",
+    "description": "Understand income, needs, wants, savings, and spending review.",
+    "steps": [
+      "List your monthly income.",
+      "Write down essential expenses.",
+      "Set a realistic savings target.",
+      "Track spending and adjust your plan monthly."
+    ],
+    "quiz": {
+      "q": "What is a useful first step when budgeting?",
+      "options": [
+        "Ignore small expenses",
+        "List income and expenses",
+        "Borrow to cover every want"
+      ],
+      "answer": 1,
+      "explanation": "A budget starts with understanding the money coming in and going out."
+    }
+  },
+  {
+    "id": "health-01",
+    "title": "Prepare a basic first-aid kit",
+    "category": "Health & First Aid",
+    "level": "Beginner",
+    "durationMinutes": 5,
+    "duration": "5 min",
+    "icon": "🩹",
+    "description": "Learn what a simple home first-aid kit can contain and when to seek help.",
+    "steps": [
+      "Include adhesive bandages and sterile gauze.",
+      "Add disposable gloves and medical tape.",
+      "Keep essential emergency contacts nearby.",
+      "Check expiry dates and follow local health guidance."
+    ],
+    "quiz": {
+      "q": "What should you do with expired first-aid supplies?",
+      "options": [
+        "Keep using them indefinitely",
+        "Check guidance and replace them safely",
+        "Mix them with new supplies"
+      ],
+      "answer": 1,
+      "explanation": "Check expiry dates regularly and replace expired items. Seek professional help for serious injuries."
+    }
+  },
+  {
+    "id": "study-01",
+    "title": "Use a focused study session",
+    "category": "Education & Study Skills",
+    "level": "Beginner",
+    "durationMinutes": 4,
+    "duration": "4 min",
+    "icon": "📚",
+    "description": "Break learning into focused sessions with clear goals and short breaks.",
+    "steps": [
+      "Choose one specific learning goal.",
+      "Remove distractions and prepare materials.",
+      "Study for a manageable block of time.",
+      "Recall the main points without looking at notes."
+    ],
+    "quiz": {
+      "q": "Which action helps check what you have learned?",
+      "options": [
+        "Re-read without pausing",
+        "Recall the main points from memory",
+        "Keep notifications on"
+      ],
+      "answer": 1,
+      "explanation": "Active recall helps you check your understanding."
+    }
+  },
+  {
+    "id": "career-01",
+    "title": "Write a professional email",
+    "category": "Career & Workplace Skills",
+    "level": "Beginner",
+    "durationMinutes": 5,
+    "duration": "5 min",
+    "icon": "✉️",
+    "description": "Structure a clear email with a subject, greeting, request, and sign-off.",
+    "steps": [
+      "Write a short, specific subject line.",
+      "Greet the recipient politely.",
+      "State the purpose and required action clearly.",
+      "Close politely and proofread before sending."
+    ],
+    "quiz": {
+      "q": "What belongs in a useful email subject line?",
+      "options": [
+        "A clear summary of the purpose",
+        "Only emojis",
+        "The entire email body"
+      ],
+      "answer": 0,
+      "explanation": "A concise subject line helps the recipient understand the email purpose."
+    }
+  },
+  {
+    "id": "comm-01",
+    "title": "Practice active listening",
+    "category": "Communication",
+    "level": "Beginner",
+    "durationMinutes": 3,
+    "duration": "3 min",
+    "icon": "💬",
+    "description": "Build stronger conversations by paying attention and checking understanding.",
+    "steps": [
+      "Give the speaker your attention.",
+      "Avoid interrupting.",
+      "Ask a clarifying question when needed.",
+      "Summarize what you heard respectfully."
+    ],
+    "quiz": {
+      "q": "What is an example of active listening?",
+      "options": [
+        "Planning your reply while ignoring the speaker",
+        "Summarizing the speaker’s point to confirm understanding",
+        "Interrupting quickly"
+      ],
+      "answer": 1,
+      "explanation": "Reflecting back the message helps confirm understanding."
+    }
+  },
+  {
+    "id": "language-01",
+    "title": "Learn five useful words",
+    "category": "Languages",
+    "level": "Beginner",
+    "durationMinutes": 4,
+    "duration": "4 min",
+    "icon": "🌍",
+    "description": "Use a small daily vocabulary habit to improve language learning.",
+    "steps": [
+      "Choose five useful words around one topic.",
+      "Read their meanings and pronunciation.",
+      "Write one sentence for each word.",
+      "Review them the next day."
+    ],
+    "quiz": {
+      "q": "What helps vocabulary stick over time?",
+      "options": [
+        "Never reviewing it",
+        "Using words in sentences and revisiting them",
+        "Memorizing a long list once only"
+      ],
+      "answer": 1,
+      "explanation": "Using words and reviewing them over time supports retention."
+    }
+  },
+  {
+    "id": "creative-01",
+    "title": "Start a daily sketch habit",
+    "category": "Creative Skills",
+    "level": "Beginner",
+    "durationMinutes": 5,
+    "duration": "5 min",
+    "icon": "🎨",
+    "description": "Use short, low-pressure practice to build a creative habit.",
+    "steps": [
+      "Choose a simple object nearby.",
+      "Observe its basic shapes.",
+      "Sketch for five minutes without judging the result.",
+      "Save your sketch and notice one thing to improve."
+    ],
+    "quiz": {
+      "q": "What is a good goal for beginner sketch practice?",
+      "options": [
+        "Create a perfect drawing immediately",
+        "Practice regularly and notice progress",
+        "Avoid drawing until you feel ready"
+      ],
+      "answer": 1,
+      "explanation": "Regular practice and small improvements are realistic beginner goals."
+    }
+  },
+  {
+    "id": "safety-01",
+    "title": "Know your emergency plan",
+    "category": "Safety & Emergency Skills",
+    "level": "Beginner",
+    "durationMinutes": 5,
+    "duration": "5 min",
+    "icon": "🧭",
+    "description": "Prepare important contacts and a simple plan for emergencies.",
+    "steps": [
+      "Know your local emergency number.",
+      "Keep key contacts accessible.",
+      "Agree on a meeting point with household members.",
+      "Follow instructions from emergency services."
+    ],
+    "quiz": {
+      "q": "During a serious emergency, whose instructions should you follow?",
+      "options": [
+        "Unverified social media posts",
+        "Emergency services and official local guidance",
+        "Random forwarded messages"
+      ],
+      "answer": 1,
+      "explanation": "Use official emergency guidance and verified information."
+    }
   },
   {
     "id": "cyber-01",
     "title": "Spot a suspicious link",
     "category": "Digital & Cyber Safety",
-    "durationMinutes": 5
+    "level": "Beginner",
+    "durationMinutes": 5,
+    "duration": "5 min",
+    "icon": "🔐",
+    "description": "Recognize common warning signs before opening a link or sharing information.",
+    "steps": [
+      "Check the sender and the full domain carefully.",
+      "Be cautious of urgency, prizes, or threats.",
+      "Do not enter passwords from a message link.",
+      "Open the official website directly or verify through another channel."
+    ],
+    "quiz": {
+      "q": "A message asks you to urgently sign in through an unfamiliar link. What is safest?",
+      "options": [
+        "Click quickly before it expires",
+        "Verify the message and open the official site directly",
+        "Forward it to everyone"
+      ],
+      "answer": 1,
+      "explanation": "Verify unexpected messages and avoid entering credentials through suspicious links."
+    }
   }
 ]
